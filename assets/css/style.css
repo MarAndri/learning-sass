@@ -1,0 +1,125 @@
+p, ul {
+  font-size: 100%;
+  color: #192700; }
+
+a:visited {
+  color: #420020; }
+
+a:link {
+  color: #538000; }
+
+a:hover {
+  color: #720039; }
+
+body {
+  max-width: 90%;
+  margin: auto;
+  background-image: linear-gradient(to bottom, #efffb7, #fff6a7);
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  text-align: justify; }
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+blockquote {
+  width: 55%;
+  margin: 80px auto 80px auto;
+  border-left: 3px solid #6d3c14;
+  padding-left: 30px;
+  font-size: 160%;
+  background-color: #f5ffd1; }
+
+#cat {
+  float: left;
+  margin-right: 20px; }
+
+q {
+  display: block;
+  font-style: italic; }
+  q.villageois {
+    width: 70%;
+    margin: 40px auto 40px auto;
+    font-size: 120%;
+    padding-left: 20px;
+    background-color: #fffad1;
+    border-left: 2px solid #6d3c14; }
+  q.fermier {
+    width: 70%;
+    margin: 40px auto 40px auto;
+    font-size: 120%;
+    padding-left: 20px;
+    background-color: #fffad1;
+    border-left: 2px solid #7a7c12; }
+
+header > p {
+  font-style: italic; }
+
+em {
+  font-variant: small-caps; }
+  em.bien {
+    color: #4a6811; }
+  em.mal {
+    color: #8b2424; }
+
+table {
+  width: 300px;
+  font-size: 90%;
+  border-collapse: collapse; }
+  table tr:nth-child(odd) {
+    background: white; }
+  table tr:nth-child(even) {
+    background: lightyellow; }
+
+caption {
+  background: lightyellow; }
+
+ul {
+  margin-right: 675px;
+  line-height: 1.75; }
+  ul li:first-child {
+    background-image: url("/assets/img/pouceleve.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right; }
+  ul li:nth-child(2) {
+    background-image: url("/assets/img/poucebaisse.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right; }
+  ul li:nth-child(3) {
+    background-image: url("/assets/img/jolichat.png");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right; }
+
+h1 + p {
+  font-weight: bold; }
+
+#img1 {
+  max-width: 40%;
+  height: auto;
+  float: right;
+  margin-left: 20px; }
+
+#img2 {
+  margin-right: 20px;
+  max-width: 100%; }
+
+#img3 {
+  margin-left: 20px;
+  max-width: 100%; }
+
+figure {
+  text-align: center;
+  font-size: smaller;
+  margin: unset; }
+
+#fig1 {
+  max-width: 30%;
+  float: left;
+  margin: 20px 20px 0 0; }
+
+#fig2 {
+  max-width: 50%;
+  float: right; }
